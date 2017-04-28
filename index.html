@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link type="text/css"; rel="stylesheet"; href="index.css"/>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <a href="https://www.facebook.com/ivan.obretenov.3" target="_blank">
+        <img id="fb-button" src="images/facebook.png"/>
+    </a>
+	<a href="https://www.youtube.com/user/IvanCrystalColor" target="_blank">
+        <img id="youtube-button" src="images/youtube.png"/>
+    </a>
+    <div class="wrapper">
+        <h1 id="name"><a href="index.html">Slav Guys</a></h1>
+    </div>
+        <ul id="top-menu">
+            <li class="top-button" id="current"><a href="index.html">HOME</a></li>
+            <li class="top-button"><a href="games.html">GAMING</a></li>
+            <li class="top-button"><a href="videos.html">VIDEOS</a></li>
+            <li class="top-button"><a href="downloads.html">DOWNLOADS</a></li>
+            <li class="top-button"><a href="about.html">ABOUT US</a></li>
+            <li class="top-button"><a href="blog/index.html" target="_blank">BLOG</a></li>
+        </ul>
+    <br>
+	<img src="images/slav1.png"/>
+    <p><a href="#" class="simple-back-to-top"><img src="images/up-arrow.png"/></a></p>
+    <script type="text/javascript">
+        // create the back to top button
+        $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+        var amountScrolled = 50;
+
+        $('a.back-to-top, a.simple-back-to-top').click(function() {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 700);
+            return false;
+        });
+    </script>
+</body>
+</html>

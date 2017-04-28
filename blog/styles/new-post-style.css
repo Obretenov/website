@@ -1,0 +1,52 @@
+.new-post-title {
+    width: 250px;
+}
+
+.new-post-block {
+    background: #333333;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#editor-title {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Jura;
+    font-size: 24px;
+    text-align: center;
+}
+
+#post-form {
+    background: gray;
+    margin: 10px;
+}
+
+.single-element-form {
+    display: inline;
+    width: 40%;
+    padding-top: 10px;
+}
+
+.content-field {
+    resize: none;
+    outline: none;
+    width: 550px;
+    height: 300px;
+    text-align: left;
+    font-family:Jura;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.content-field:focus {
+    font-family:Jura;
+    font-size: 14px;
+    font-weight: 100;
+    outline: none;
+    border: 3px solid #ff0c15;
+}
+
+
+

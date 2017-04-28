@@ -1,0 +1,163 @@
+body {
+    width: 83em;
+    background-image: url("images/background2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#top-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float:left;
+}
+
+li {
+    float: left;
+}
+a.back-to-top {
+    display: none;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: #27AE61 url("images/up-arrow.png") no-repeat center 43%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.simple-back-to-top{
+    position:fixed;
+    left:1300px;
+    top:600px;
+    text-decoration:none;
+}
+hr{
+    width:100%;
+    float: left;
+}
+a button{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: ArcadeClassic;
+    font-size: 1.4em;
+    background-color: #333;
+}
+h2 {
+    color: white;
+    font-family: ArcadeClassic;
+    font-size: 3.5em;
+    margin-top: 1em;
+}
+h3 {
+    color:white;
+    font-family: ArcadeClassic;
+    font-size: 2em;
+}
+p {
+    color: white;
+    display: inline;
+    font-family: Jura;
+    font-size: 1.2em;
+
+}
+#current a {
+    color: yellow;
+}
+#fb-button {
+    display: inline;
+    float: left;
+    margin-top: 2em;
+}
+#youtube-button{
+	display:inline;
+	float:left;
+	margin-top:2em;
+	margin-left:0.5em;
+}
+
+#hora {
+    float: left;
+    margin: 1.5em;
+}
+#name {
+    font-size: 4em;
+    font-family: ArcadeClassic;
+    display: inline;
+    float: top;
+    margin-left: -1em;
+}
+#name a {
+    text-decoration: none;
+    color: white;
+}
+#show-font {
+    font-family: ArcadeClassic;
+}
+.top-button a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 3.20em;
+    text-decoration: none;
+    font-family: ArcadeClassic;
+    font-size: 1.4em;
+}
+.top-button:hover {
+    background-color:#ff0c15;
+
+}
+.video-menu {
+    display: inline-block;
+}
+.video-menu-title {
+    font-family: Jura;
+    text-align: center;
+}
+.video-cell {
+    margin: 2em;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Jura;
+    width: 16.5em;
+    height: 15em;
+}
+.video-cell:hover {
+    background-color:#ff0c15;
+}
+.video-caption {
+    font-size: 1.3em;
+    color: white;
+}
+.thumbnail {
+    width: 12em;
+    height: 10em;
+}
+.wrapper {
+    text-align: center;
+}
+.game-title {
+    text-align: center;
+    font-family: Jura;
+    color: yellow;
+}
+.game-description {
+    display: block;
+    text-align: center;
+}
+.game-cover {
+    float: left;
+    height: 15em;
+    width: 25em;
+}
+
+
+

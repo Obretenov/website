@@ -1,0 +1,73 @@
+.wrapper {
+    /*background: url("../images/background.png") no-repeat center center fixed;*/
+    background-size: cover;
+}
+
+.user-login-block {
+    border-radius: 15px;
+    background-color: #333;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 10% auto;
+    width: 35%;
+    height: 55%;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.form-title {
+    font: 18px ArcadeClassic;
+    font-weight: 400;
+    color: white;
+    padding: 0 5px 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+input {
+    border: 3px solid gray;
+    width: 60%;
+    height: 35px;
+    margin: 0 auto 10px;
+    text-align: center;
+    font-family: Jura;
+}
+
+input:focus {
+    font: 12px Jura;
+    font-weight: 100;
+    outline: none;
+    border: 3px solid red;
+}
+
+button {
+    font: 16px ArcadeClassic;
+    color: white;
+    background-color: #565656;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+    width: 50%;
+}
+
+button:hover {
+    background-color: #ff0c15;
+}
+
+.form-link {
+    text-decoration: none;
+    color: white;
+    font: 16px Jura;
+    font-weight: 900;
+    padding: 10px;
+}
+
+#register-title {
+    width: 200px;
+}
